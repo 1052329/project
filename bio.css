@@ -1,0 +1,56 @@
+body {
+    background-color: antiquewhite;
+}
+
+nav {
+    height: 100px;
+    width: 80%;
+    background-color: rgb(218, 198, 218);
+    margin: 0 auto; /*horrizontal nav alignment*/
+    display: flex;
+    justify-content: space-between; /*horrizontal alignment*/
+    align-items: center;
+    border:solid slateblue 10px ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+a{
+    margin:20px;
+    padding:10px;
+
+}
+
+a:hover{
+    border-top: 3px solid purple;
+    border-bottom: 3px solid purple;
+}
+img{
+    height:75px;
+    width: 75px;
+    padding: 10px;
+}
+#Join{
+    background-color:rgba(238, 130, 238, 0.634);
+    margin: 20px;
+}
+
+
+.biot{
+ display: inline-block;
+ background-color: rgba(238, 130, 238, 0.334);
+ margin-left: 0px;
+ margin-right: 0px;   
+ margin-top: 0px;
+ margin-bottom: 0px;
+ min-inline-size: 10%;
+max-inline-size: 40%;
+margin:0 auto;
+}
+main{
+    text-align: center;
+}
+#school{
+    height: 500px;
+    width: 800px;
+}
