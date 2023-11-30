@@ -57,7 +57,7 @@ function Newgame ()
     }
     lettergot=0;
     fail=0;
-    picture.src = "hangman0 (1).png";
+    picture.src = "hangman0.png";
     picks.textContent = " ";
     newword();
 }
@@ -106,22 +106,22 @@ function letterchecker() {
         failsound();
         alert("Incorrect letter" + fail);
         if (fail == 1) {
-            picture.src = "hangman1 (1).png";
+            picture.src = "hangman1.png";
         }
         if (fail == 2) {
-            picture.src = "hangman2 (1).png";
+            picture.src = "hangman2.png";
         }
         if (fail == 3) {
-            picture.src = "hangman3 (1).png";
+            picture.src = "hangman3.png";
         }
         if (fail == 4) {
-            picture.src = "hangman4 (1).png";
+            picture.src = "hangman4.png";
         }
         if (fail == 5) {
-            picture.src = "hangman5 (1).png";
+            picture.src = "hangman5.png";
         }
         if (fail == 6) {
-            picture.src = "hangman6 (1).png";
+            picture.src = "hangman6.png";
         }
 
 
