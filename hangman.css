@@ -1,0 +1,57 @@
+input{
+    width:50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    color:black;
+    text-transform: lowercase;
+}
+*{
+    color: white;
+}
+body{
+    background-color: black;
+}
+button{
+    background-color: gray;
+}
+p{
+    color: white;
+}
+
+.letterreveal{
+background-color: white;
+display: inline;
+border: 4px solid white;
+
+size: 50px;
+
+color: black;
+font-size: 30px;
+}
+.LR{
+margin-left: 45%;
+margin-right: auto;
+}
+#NewGamebtn
+{
+    
+    background-color: red;
+}
+#buttons
+{
+    margin-left: 47%;
+}
+img
+{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#other
+{
+
+    margin-left: 49%;
+}
