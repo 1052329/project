@@ -1,0 +1,13 @@
+table{
+    color: black;
+    border: black 2px solid;
+    margin-top: 20px;
+
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+
+th,td{
+    border: black 1px solid;
+}
